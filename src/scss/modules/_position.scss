@@ -1,0 +1,88 @@
+.position-relative-element {
+  background-color: green;
+  padding: 30px;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.position-relative-b {
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+}
+
+.position2-absolute-b {
+  background-color: orange;
+  padding: 15px;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 58px;
+  left: 58px;
+}
+
+.position2-absolute-big {
+  background-color: green;
+  padding: 30px;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.position2-absolute-c {
+  background-color: orange;
+  padding: 15px;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.position3-absolute-b {
+  background-color: orange;
+  padding: 15px;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+}
+
+.position3-absolute-big {
+  background-color: green;
+  padding: 30px;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.position3-absolute-c {
+  background-color: orange;
+  padding: 15px;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 70px;
+}
