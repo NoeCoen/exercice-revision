@@ -67,3 +67,27 @@
   display: flex;
   justify-content: space-around;
 }
+
+.mobile-menu {
+  text-decoration: underline;
+  position: relative;
+  top: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .mobile-menu {
+    display: block;
+  }
+  .media-queries-container-3 {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 3000px) {
+  .mobile-menu {
+    display: none;
+  }
+  .media-queries-container-3 {
+    display: felx;
+  }
+}
