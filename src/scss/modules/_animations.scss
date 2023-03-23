@@ -1,0 +1,55 @@
+.anim-1 {
+  width: 80px;
+  height: 80px;
+  background-color: burlywood;
+  animation: changeAngle 3s linear infinite;
+}
+
+@keyframes changeAngle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.anim-2 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  animation: changeColorPosition 3s linear infinite;
+}
+
+@keyframes changeColorPosition {
+  0% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: black;
+    left: 50px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+
+  75% {
+    background-color: black;
+    left: 0px;
+    top: 30px;
+  }
+
+  100% {
+    background-color: yellow;
+    left: 00px;
+    top: 0px;
+  }
+}
